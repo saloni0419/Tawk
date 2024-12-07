@@ -115,6 +115,7 @@ export const updateProfile = async (req, res) => {
   }
 };
 
+// will be used when user refresh the page to check if user is still authenticated or not
 export const checkAuth = (req, res) => {
   try {
     res.status(200).json(req.user)
