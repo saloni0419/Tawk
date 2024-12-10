@@ -14,3 +14,8 @@ export const getUsersForSidebar = async (req,res) => {
         
     }
 }
+
+// get all messages between two users
+export const getMessages = async (req,res) => {
+    
+}
