@@ -12,6 +12,6 @@ router.get("/users", protectRoute, getUsersForSidebar); // get every user on con
 
 router.get("/:id", protectRoute, getMessages); // message between two user
 
-router.post("/send/:id", protectRoute, sendMessage) // send message to other user
+router.post("/send/:id", protectRoute, sendMessage); // send message to other user
 
 export default router;
